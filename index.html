@@ -67,6 +67,13 @@
 			//JSON processing data goes here
 			//toConsole(data); 
 			// $("#output").text(JSON.stringify(data));
+
+			//clear films from previous click
+			$("#films").html("");
+
+			//add title to h3 element
+			$("#filmtitle").html(data.title);
+
 			$.each(data.films, function (i, item) {
 
 				let text = `
@@ -74,10 +81,11 @@
 					<b>Film #:</b> ${item.Film} # <br> 
 					<b>Year:</b> ${item.Year} <br> 
 					<b>Director:</b> ${item.Director} <br> 
-					<b>Producers:</b> ${item.Producer} <br> 
-					<b>Writer:</b> ${item.Writer} <br> 
+					<b>Producers:</b> ${item.Producers} <br> 
+					<b>Writer:</b> ${item.Writers} <br> 
 					<b>Box Office:</b> ${item.BoxOffice} # <br> 
 					<b>Film #:</b> ${item.Film} # <br> 
+					<div class="pic"><img src="thumbnails/${item.Image}" alt=""></div>
 				`;
 				$("<div></div>").html(text).appendTo("#films");
 			});
@@ -91,10 +99,10 @@
 	<h1>Bond Web Service</h1>
 	<a href="year" class="category">Bond Films By Year</a><br />
 	<a href="box" class="category">Bond Films By International Box Office Totals</a>
+	<a href="bond" class="category">Bond Films By Bond</a>
 	<h3 id="filmtitle">Title Will Go Here</h3>
 	<div id="films">
-		<div>
-			<div class="pic"><img src="thumbnails/a-view-to-a-kill.jpg" alt=""></div>
+			<!-- 
 			<b>Title:</b> Title <br>
 			<b>Film #:</b> Film # <br>
 			<b>Year:</b> Year <br>
@@ -102,8 +110,8 @@
 			<b>Producers:</b> Producer <br>
 			<b>Writer:</b> Writer <br>
 			<b>Box Office:</b> Box office # <br>
-			<b>Film #:</b> Film # <br>
-		</div>
+			<b>Film #:</b> Film # <br> -->
+		
 	</div>
 	<div id="output">Results go here</div>
 </body>
