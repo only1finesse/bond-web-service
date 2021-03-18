@@ -21,7 +21,7 @@
 				if (cat == "box") {//box office 
 					url = "data/bond-box-office.js";
 				} else {//year 
-					url = "data/bond-year.js";
+					url = "data/cars-unit-sold.js";
 				}
 			}
 			return url;
@@ -75,19 +75,19 @@
 			$("#filmtitle").html(data.title);
 
 			$.each(data.films, function (i, item) {
-
 				let text = `
-					<b>Title:</b> ${item.Title} <br> 
-					<b>Film #:</b> ${item.Film} # <br> 
+					<b>Car:</b> ${item.Car} <br> 
+					<b>Brand:</b> ${item.Brand} <br> 
+					<b>Name:</b> ${item.Name} <br> 					
 					<b>Year:</b> ${item.Year} <br> 
-					<b>Director:</b> ${item.Director} <br> 
-					<b>Producers:</b> ${item.Producers} <br> 
-					<b>Writer:</b> ${item.Writers} <br> 
-					<b>Box Office:</b> ${item.BoxOffice} # <br> 
-					<b>Film #:</b> ${item.Film} # <br> 
-					<div class="pic"><img src="thumbnails/${item.Image}" alt=""></div>
+					<b>Price:</b> ${item.Price} <br> 
+					<b>Style:</b> ${item.Style} <br> 
+					<b>Units Sold:</b> ${item.Sold}<br> 
+					<b>Rating:</b> ${item.Rating}<br> 
+					<div class="pic"><img src="images/${item.Image}" alt=""></div>
 				`;
 				$("<div></div>").html(text).appendTo("#films");
+				
 			});
 
 		}
@@ -97,23 +97,23 @@
 
 <body>
 	<h1>Bond Web Service</h1>
-	<a href="year" class="category">Bond Films By Year</a><br />
-	<a href="box" class="category">Bond Films By International Box Office Totals</a>
-	<a href="bond" class="category">Bond Films By Bond</a>
-	<h3 id="filmtitle">Title Will Go Here</h3>
+	<a href="year" class="category">Best Cars in 2021 By Units Sold</a><br />
+	<a href="box" class="category" id="best">Bond Films By International Box Office Totals</a>
+	<h3 id="filmtitle"></h3>
 	<div id="films">
 			<!-- 
 			<b>Title:</b> Title <br>
 			<b>Film #:</b> Film # <br>
 			<b>Year:</b> Year <br>
-			<b>Director:</b> Director <br>
-			<b>Producers:</b> Producer <br>
+			<b>Brand:</b> Brand <br>
+			<b>Price:</b> Producer <br>
 			<b>Writer:</b> Writer <br>
 			<b>Box Office:</b> Box office # <br>
 			<b>Film #:</b> Film # <br> -->
 		
 	</div>
-	<div id="output">Results go here</div>
+	<div id="output"></div>
+	
 </body>
 
 </html>

@@ -1,7 +1,4 @@
 {
-	"title": "Bond Films by Box Office Totals",
-
-		"films": [
 			{
 				"Car": 25,
 				"Brand": "Toyota",
@@ -13,6 +10,7 @@
 				"Rating": "8.5/10",
 				"Image": "toyota-corolla.png"
 			},
+
 			{
 				"Car": 24,
 				"Brand": "Honda",
@@ -24,6 +22,7 @@
 				"Rating": "Nil",
 				"Image": "honda-civic.png"
 			},
+
 			{
 				"Car": 23,
 				"Brand": "Chevrolet",
@@ -35,6 +34,7 @@
 				"Rating": "7/10",
 				"Image": "chevrolet-equinox.png"
 			},
+
 			{
 				"Car": 22,
 				"Brand": "Nissan",
@@ -46,6 +46,7 @@
 				"Rating": "8/10",
 				"Image": "nissan-altima.png"
 			},
+
 			{
 				"Car": 21,
 				"Brand": "Subaru",
@@ -57,6 +58,7 @@
 				"Rating": "8/10",
 				"Image": "subaru-forester.png"
 			},
+
 			{
 				"Car": 20,
 				"Brand": "Toyota",
@@ -68,6 +70,7 @@
 				"Rating": "8.5/10",
 				"Image": "toyota-camry.png"
 			},
+
 			{
 				"Car": 19,
 				"Brand": "Honda",
@@ -79,6 +82,7 @@
 				"Rating": "10/10",
 				"Image": "honda-accord.png"
 			},
+
 			{
 				"Car": 18,
 				"Brand": "Ford",
@@ -90,6 +94,7 @@
 				"Rating": "7.5/10",
 				"Image": "ford-escape.png"
 			},
+
 			{
 				"Car": 17,
 				"Brand": "Honda",
@@ -101,6 +106,7 @@
 				"Rating": "9/10",
 				"Image": "honda-crv.png"
 			},
+
 			{
 				"Car": 16,
 				"Brand": "Mazda",
@@ -112,6 +118,7 @@
 				"Rating": "10/10",
 				"Image": "mazda-cx5.png"
 			},
+
 			{
 				"Car": 15,
 				"Brand": "Nissan",
@@ -123,6 +130,7 @@
 				"Rating": "8/10",
 				"Image": "nissan-rogue.png"
 			},
+
 			{
 				"Car": 14,
 				"Brand": "Toyota",
@@ -134,6 +142,7 @@
 				"Rating": "8.5/10",
 				"Image": "toyota-rav4.png"
 			},
+
 			{
 				"Car": 13,
 				"Brand": "Toyota",
@@ -145,6 +154,7 @@
 				"Rating": "6.5/10",
 				"Image": "toyota-tacoma.png"
 			},
+
 			{
 				"Car": 12,
 				"Brand": "GMC",
@@ -156,6 +166,7 @@
 				"Rating": "8.5/10",
 				"Image": "gmc-sierra.png"
 			},
+
 			{
 				"Car": 11,
 				"Brand": "Subaru",
@@ -167,6 +178,7 @@
 				"Rating": "9/10",
 				"Image": "subaru-outback.png"
 			},
+
 			{
 				"Car": 10,
 				"Brand": "Jeep",
@@ -178,6 +190,7 @@
 				"Rating": "6.5/10",
 				"Image": "jeep-cherokee.png"
 			},
+
 			{
 				"Car": 9,
 				"Brand": "Chevrolet",
@@ -189,6 +202,7 @@
 				"Rating": "8/10",
 				"Image": "chevrolet-silverado.png"
 			},
+
 			{
 				"Car": 8,
 				"Brand": "Jeep",
@@ -200,6 +214,7 @@
 				"Rating": "7.5/10",
 				"Image": "jeep-wrangler.png"
 			},
+
 			{
 				"Car": 7,
 				"Brand": "Ram",
@@ -211,6 +226,7 @@
 				"Rating": "10/10",
 				"Image": "ram-1500-pickup.png"
 			},
+
 			{
 				"Car": 6,
 				"Brand": "Ford",
@@ -222,6 +238,7 @@
 				"Rating": "9/10",
 				"Image": "ford-f-series.png"
 			},
+
 			{
 				"Car": 5,
 				"Brand": "Ford",
@@ -233,6 +250,7 @@
 				"Rating": "9/10",
 				"Image": "ford-transit.png"
 			},
+
 			{
 				"Car": 4,
 				"Brand": "Ford",
@@ -244,6 +262,7 @@
 				"Rating": "7.5/10",
 				"Image": "ford-explorer.png"
 			},
+
 			{
 				"Car": 3,
 				"Brand": "Jeep",
@@ -278,8 +297,4 @@
 				"Sold": "129,052",
 				"Rating": "4/10",
 				"Image": "toyota-4runner.png"
-			}
-
-
-					]
-}
+			},
